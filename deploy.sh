@@ -12,7 +12,7 @@ cd dist
 # if you are deploying to a custom domain
 echo 'pirati.dev' > CNAME
 
-#git init
+git init
 git add -A
 git commit -m 'deploy'
 
