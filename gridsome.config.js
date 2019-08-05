@@ -9,4 +9,5 @@ module.exports = {
   plugins: [],
   siteUrl: 'https://pirati.dev',
   pathPrefix: '/static',
+  publicPath: '/static'
 }
