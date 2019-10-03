@@ -4,7 +4,7 @@
 
     <div class='footer'>
         Vyhledávání napříč Pirátským ekosystémem. Ve stadiu ProofOfConcept, nestabilní. Agreguje data z fóra, redmine a proplácení. <br>
-        Licence: CC BY-SA | <a href='https://gitlab.com/Jarmil/pupik'>Zdrojový kód</a> | Připomínky na <a href='mailto:jarmil.halamicek@seznam.cz'>jarmil.halamicek@seznam.cz</a>
+        Licence: CC BY-SA | <a href='https://gitlab.com/Jarmil/pupik'>Zdrojový kód</a> | Připomínky na backend <a href='mailto:jarmil.halamicek@seznam.cz'>jarmil.halamicek@seznam.cz</a> nebo na frontend <a href='mailto:honza@suchanek.cz'>honza@suchanek.cz</a>
         <img src='http://vps1.pir-test.eu:8000/assets/cc-by-sa.png' class='license-image'>
     </div>    
   </div>

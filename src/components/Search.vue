@@ -1,8 +1,8 @@
 <template>
   <div class="search">
-
+    <form v-on:submit.prevent="onSubmit">
       <div class='search-row'>
-          <form v-on:submit.prevent="onSubmit">
+         
               <span class='search-phrase'>
                   <input type="text" name="query"
                   v-model="query" 
@@ -12,11 +12,11 @@
               <span class='search-button'>
                   <button>Vyhledat</button>
               </span>
-          </form>
+
       </div>
 
       <div class='filter-row'>
-          <span class='filter-checkbox' v-for="source in sources">
+          <span class='filter-checkbox' v-for="source in sources" :key="source">
               <label :for="source.id">
                   <input type="checkbox" 
                   v-model="source.checked" 
@@ -29,8 +29,6 @@
               </label>
           </span>
       </div>
-
-   
     </form>
   </div>
 </template>
@@ -99,7 +97,7 @@ export default {
   watch: {
     page: {
       immediate: true,
-      handler(newVal, oldVal) {
+      handler() {
         if(this.query) {
           this.getData()
         }

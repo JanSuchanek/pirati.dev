@@ -1,10 +1,8 @@
 <template>
 	<div class="home">
 		<div class='search-title'>
-			<!--
-				<span class='search-title-logo'><img src='https://upload.wikimedia.org/wikipedia/commons/7/7c/Logo_Pirátů.svg' class='search-title-logo-image' alt="Pirati"></span>
-				<span class='search-title-name'>PUPÍK</span>
-			-->
+			<span class='search-title-logo'><img src='https://upload.wikimedia.org/wikipedia/commons/7/7c/Logo_Pirátů.svg' class='search-title-logo-image' alt="Pirati"></span>
+			<span class='search-title-name'>PUPÍK</span>
 		</div>
 		<Search @change="changeQuery" />
 		<List :items="items" />        
