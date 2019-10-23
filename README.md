@@ -1,4 +1,4 @@
-# pupik
+# pirati.dev
 
 ## Project setup
 ```
