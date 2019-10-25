@@ -2,11 +2,7 @@
   <div class="pagination">
     <ul>
       <li v-for="i in maxPages">
-        <a href='#'
-           :class="{'active': currentPage === i}"
-           @click="$emit('change', i)">
-          {{ i }}
-        </a>
+        <a href='#' :class="{'active': currentPage === i}" @click="$emit('change', i)">{{ i }}</a>
       </li>
     </ul>
   </div>
