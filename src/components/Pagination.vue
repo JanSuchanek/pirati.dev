@@ -1,7 +1,7 @@
 <template>
   <div class="pagination">
     <ul>
-      <li v-for="i in maxPages">
+      <li v-for="i in maxPages" v-bind:key="i">
         <a
           href="#"
           :class="{ active: currentPage === i }"
