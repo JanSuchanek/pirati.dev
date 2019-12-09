@@ -1,3 +1,6 @@
-{
-  ("http://vps1.pir-test.eu");
-}
+module.exports = {
+  // options...
+  devServer: {
+    proxy: "http://vps1.pir-test.eu"
+  }
+};
