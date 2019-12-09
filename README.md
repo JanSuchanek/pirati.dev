@@ -1,4 +1,4 @@
-# pirati.dev
+# pirati2.dev
 
 ## Project setup
 ```
